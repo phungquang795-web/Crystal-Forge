@@ -1,0 +1,914 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-10-10T16:58:59.2995552Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16200 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-10T16:58:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+D:/Ga21301/GAme
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+60824
+-parentPid
+12272
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+11ed0b4a-c1db-42b7-ab37-ff1d12213a72
+-analyticsLocalProjectId
+61412103e7e151a4ab8d0b99a1394427
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+b3485123a5707ceb7bdcbdd9675596c85d27c3b2
+-cbmMachineId
+c8lURMU4rJV6EUzGSNClrAFvI4E=
+-licensingIpc
+LicenseClient-Administrator
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/Ga21301/GAme
+D:/Ga21301/GAme
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [1944]  Target information:
+
+Player connection [1944]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2956147689 [EditorId] 2956147689 [Version] 1048832 [Id] WindowsEditor(7,WIN-JN9CKIESMG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1944] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Ga21301/GAme/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 11.0]
+    Renderer:        NVIDIA Quadro M1000M (ID=0x13b1)
+    Vendor:          NVIDIA
+    VRAM:            2001 MB
+    App VRAM Budget: 1701 MB
+    Driver:          32.0.15.8278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002961 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
+[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.5.9" at "2026-10-10T16:59:01.8321587Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10788, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              0790678e854e49e2b3d66ec5956d3025
+  Correlation Id:          9f66c684e6ec1f0e35ec9ccc34a0d579
+  External correlation Id: 7832418525454381622
+  Machine Id:              c8lURMU4rJV6EUzGSNClrAFvI4E=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.5.9" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.5.9-notifications" at "2026-10-10T16:59:01.844765Z"
+[Licensing::Module] Licensing Background thread has ended after 2.55s
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.378 seconds
+Domain Reload Profiling: 2496ms
+	BeginReloadAssembly (283ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (274ms)
+		AnalyzeDomain (489ms)
+			TypeCache.Refresh (486ms)
+				TypeCache.ScanAssembly (458ms)
+	FinalizeReload (1380ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (602ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968363565321-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.429 seconds
+Domain Reload Profiling: 4432ms
+	BeginReloadAssembly (559ms)
+		DisableScriptedObjects (47ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (1188ms)
+		LoadAssemblies (632ms)
+		AnalyzeDomain (591ms)
+			TypeCache.Refresh (439ms)
+				TypeCache.ScanAssembly (395ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2431ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (292ms)
+			ProcessInitializeOnLoadAttributes (1157ms)
+			ProcessInitializeOnLoadMethodAttributes (367ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 7024 unused Assets / (7.2 MB). Loaded Objects now: 8004.
+Memory consumption went from 340.7 MB to 333.5 MB.
+Total: 26.962600 ms (FindLiveObjects: 1.408800 ms CreateObjectMapping: 5.631100 ms MarkObjects: 13.657900 ms  DeleteObjects: 6.260000 ms)
+
+Curl error 35: Recv failure: Connection was reset
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:14.4276522Z
+  Time since last request: 44135.31597000000329 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '7016e0197dbed2ae4d3f436708907c2b') in 0.374 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=979a0440d9c0fb74594548180032c943 DependenciesID=2783a3a4ffea8fa786ee54180336be08 StaticDependenciesID=be062ac0da4c7a7a1e15b7cb55c81bba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:14.8498082Z
+  Time since last request: 0.0008762 seconds.
+  importAddress: GUID: 3534e405211eab64a86d55abbf62e8b5 - Path: Assets/Scripts/Adventure/CrystalDefenseManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3534e405211eab64a86d55abbf62e8b5 - Path: Assets/Scripts/Adventure/CrystalDefenseManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3534e405211eab64a86d55abbf62e8b5' -> (Import Result ID: '279dac494e44e718c552e6e0953ee414') in 0.078 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34402d634a4e7ca75c83cc00417efdf5 DependenciesID=d5a9d998141e39cdceb9146430d50bcf StaticDependenciesID=ff095dfd49a198bd34ed94c46dd098a0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:14.9744853Z
+  Time since last request: 0.0008514 seconds.
+  importAddress: GUID: d2c227048898a1a449d0470b0ff2d5cd - Path: Assets/Scripts/Economy/ClickSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d2c227048898a1a449d0470b0ff2d5cd - Path: Assets/Scripts/Economy/ClickSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d2c227048898a1a449d0470b0ff2d5cd' -> (Import Result ID: '93f21df2f41910596412b042aa26cce2') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfaec749793b329052bda2df6c1c5dc9 DependenciesID=db5f0149e7946348cc40bf6be2cc95de StaticDependenciesID=96448d84c9c254981fc1118f674a4a6c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.0375348Z
+  Time since last request: 0.0011264 seconds.
+  importAddress: GUID: c1fbff534a245084198dcc30034aa027 - Path: Assets/Scripts/UI/MilestonePanelUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c1fbff534a245084198dcc30034aa027 - Path: Assets/Scripts/UI/MilestonePanelUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c1fbff534a245084198dcc30034aa027' -> (Import Result ID: 'd1f1f63cc3369921940f7481e73b2b14') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee70577a8ce9b70c80f615ea544b642e DependenciesID=9c31f1afaf4756bb7eb1f94dd26b45d7 StaticDependenciesID=2282251943564b1098c5c84e5aa73300 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.0989588Z
+  Time since last request: 0.0008862 seconds.
+  importAddress: GUID: b78f495a1a8016644837bb55d8361827 - Path: Assets/Textures/UI/icon_sound.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b78f495a1a8016644837bb55d8361827 - Path: Assets/Textures/UI/icon_sound.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b78f495a1a8016644837bb55d8361827' -> (Import Result ID: '6658b6927ced21c7a38c4407ddaa30a8') in 0.293 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ed21eec19f5dd60c63cc0f0b53ad23f DependenciesID=02eb38e0b8ac602dfcff9d29d0c411c5 StaticDependenciesID=80e388a3491b1e1e09eaa98636d63e6f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.4426643Z
+  Time since last request: 0.0020648 seconds.
+  importAddress: GUID: f0be9043f90c4c6429a9538dd36d9764 - Path: Assets/Textures/UI/icon_save.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f0be9043f90c4c6429a9538dd36d9764 - Path: Assets/Textures/UI/icon_save.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f0be9043f90c4c6429a9538dd36d9764' -> (Import Result ID: '2c5bade92f7abd69fed7d9b5bc029f17') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=742c9caf0c4f6096d264b4bc07cc45cd DependenciesID=9b3675c1ac365120c9b7b1a2908d381c StaticDependenciesID=0c48c2ced8b1979636f7af360293f78a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.5152915Z
+  Time since last request: 0.0007572 seconds.
+  importAddress: GUID: 305c5cdab2816b14c8d72a8b699e3ddd - Path: Assets/Scripts/UI/UIManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 305c5cdab2816b14c8d72a8b699e3ddd - Path: Assets/Scripts/UI/UIManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 305c5cdab2816b14c8d72a8b699e3ddd' -> (Import Result ID: '89a2387fb84d9891f45118a2ae594724') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8977d31df23c815a3a3543cb88cad96d DependenciesID=a6b5b90934f3bdbef1dea0e2da01efaa StaticDependenciesID=30fb6ee8aaa5ea3c5b1d07cac06bcfe7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.5604822Z
+  Time since last request: 0.0011606 seconds.
+  importAddress: GUID: 23093ec63d39c0449bf221ddcb114df7 - Path: Assets/Scripts/Utils/FontSanitizer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 23093ec63d39c0449bf221ddcb114df7 - Path: Assets/Scripts/Utils/FontSanitizer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 23093ec63d39c0449bf221ddcb114df7' -> (Import Result ID: '0254f3478ea53d53c9be328e89eabcb2') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2459456989fd7e65e2857b14965863f1 DependenciesID=7894196a9a81a337f515d3eee1053a8b StaticDependenciesID=65a3b8cc3e75b355ed7e406ebf840dd7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.6129782Z
+  Time since last request: 0.0005402 seconds.
+  importAddress: GUID: 4c0800c641d48f6499420b8757f08117 - Path: Assets/Scripts/UI/HelpGuideModalUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4c0800c641d48f6499420b8757f08117 - Path: Assets/Scripts/UI/HelpGuideModalUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4c0800c641d48f6499420b8757f08117' -> (Import Result ID: '7563fbcf5b82d2e5078878c29687adca') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e5415f83a7e80024f629aae705c7fde DependenciesID=4aa53aecb435602fa80b27133807c5ad StaticDependenciesID=ed2b472ad8ae543cf14492cb2eb28b40 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.6645104Z
+  Time since last request: 0.0009997 seconds.
+  importAddress: GUID: 6657d91742a1b40428fb929a4b207d76 - Path: Assets/Scripts/VFX/LootGemSpawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6657d91742a1b40428fb929a4b207d76 - Path: Assets/Scripts/VFX/LootGemSpawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6657d91742a1b40428fb929a4b207d76' -> (Import Result ID: '92a2606b1ec1e6ace54d39934cf7b7cd') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97d55a587b62ba583285ad79fb647433 DependenciesID=eb0fac05ede788ff8917a8a818f89541 StaticDependenciesID=77810627f341b618ca767edbb42209b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.7220135Z
+  Time since last request: 0.0008742 seconds.
+  importAddress: GUID: 0846814e2dc3c7e4fa866cbe46b2c1ac - Path: Assets/Scripts/Economy/ResourceManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0846814e2dc3c7e4fa866cbe46b2c1ac - Path: Assets/Scripts/Economy/ResourceManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0846814e2dc3c7e4fa866cbe46b2c1ac' -> (Import Result ID: '86edf85aec115c617e9afcc4385cb846') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60cf4f5468ff1ca626365ca4b614e307 DependenciesID=54244ad3a68a44f7fed99b3086707950 StaticDependenciesID=0bd713d6c5e2978803d6660f5ea80a89 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.7771662Z
+  Time since last request: 0.0007808 seconds.
+  importAddress: GUID: ddeabc714e8a94c4db25099c01255c6b - Path: Assets/Scripts/Economy/MilestoneManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ddeabc714e8a94c4db25099c01255c6b - Path: Assets/Scripts/Economy/MilestoneManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ddeabc714e8a94c4db25099c01255c6b' -> (Import Result ID: '9bedfe2fee9b21d38e5dc24f506cc8c1') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eeb6e89f84511c64908e2a0322c5b8e6 DependenciesID=7d05e873dee441f89a22634c98eb5353 StaticDependenciesID=bd7080ed4ea34eb8d24054ea11e66146 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.8291563Z
+  Time since last request: 0.0008738 seconds.
+  importAddress: GUID: 5943e347744b1c542b0bb9c1794a38c4 - Path: Assets/Scripts/UI/UpgradeCardUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5943e347744b1c542b0bb9c1794a38c4 - Path: Assets/Scripts/UI/UpgradeCardUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5943e347744b1c542b0bb9c1794a38c4' -> (Import Result ID: 'dedb54dcf2102c2dac9cf78b695cf7e3') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=daa00c1a505abcde9aafb07acbf352ae DependenciesID=5f30fced3455cfc31b29cc489700f27b StaticDependenciesID=a9fd28349893f1a83167417019975566 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.8752095Z
+  Time since last request: 0.0009484 seconds.
+  importAddress: GUID: 5abe4c6fbb74b804eb751351e7932d6a - Path: Assets/Scripts/UI/UpgradeTabSwitcher.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5abe4c6fbb74b804eb751351e7932d6a - Path: Assets/Scripts/UI/UpgradeTabSwitcher.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5abe4c6fbb74b804eb751351e7932d6a' -> (Import Result ID: '01f931c8d4362d6fd7220a857048e217') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12b433b2ef7db2796f0a1e5b96c30875 DependenciesID=24b4ad2512205d670d0ac7e159a22a85 StaticDependenciesID=9575d3fbffa4ad163034427042a465ee 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:15.9351879Z
+  Time since last request: 0.0014575 seconds.
+  importAddress: GUID: 8c2484e114d6d924aab0fe419d20d846 - Path: Assets/Scripts/Editor/SceneSetupTool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c2484e114d6d924aab0fe419d20d846 - Path: Assets/Scripts/Editor/SceneSetupTool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8c2484e114d6d924aab0fe419d20d846' -> (Import Result ID: 'e39d1e617f827f5b9dd34aba2fab97d8') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3adeb267bdb1c319ab89af5406e96def DependenciesID=8456e665f80745d9785922c67054d003 StaticDependenciesID=c4d9d2272a325d343281c896fc3ff360 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:16.0029336Z
+  Time since last request: 0.0000585 seconds.
+  importAddress: GUID: 54794eaecdd79814da5520132334bdeb - Path: Assets/Scripts/Data/MilestoneDataSO.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 54794eaecdd79814da5520132334bdeb - Path: Assets/Scripts/Data/MilestoneDataSO.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 54794eaecdd79814da5520132334bdeb' -> (Import Result ID: '71c47aaa4e170ee475c00ed90fde432b') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=097b4247d97d5d0261a1dc502c8035ba DependenciesID=8c5e25efe9bff951fda1e16850a911e7 StaticDependenciesID=628939277ee240adb025dcd0374bd0f4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:16.0491376Z
+  Time since last request: 0.0010446 seconds.
+  importAddress: GUID: 5285eb77b1d14cd41a1c4edb8b8fd276 - Path: Assets/Scripts/UI/TopBarUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5285eb77b1d14cd41a1c4edb8b8fd276 - Path: Assets/Scripts/UI/TopBarUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5285eb77b1d14cd41a1c4edb8b8fd276' -> (Import Result ID: '5bd0e22e17a2a45120374a7dda028b44') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07d30f8c93404057c66aae91dd22d67c DependenciesID=31311aaf0e8e957e513e066ab1f0e2fc StaticDependenciesID=14011a926a5e76ffd0b882bfa04e8b7a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T16:59:16.0944593Z
+  Time since last request: 0.0007751 seconds.
+  importAddress: GUID: 05ac38a810e02454ca3de31536ae8739 - Path: Assets/Scripts/Editor/CanvasSetupTool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 05ac38a810e02454ca3de31536ae8739 - Path: Assets/Scripts/Editor/CanvasSetupTool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 05ac38a810e02454ca3de31536ae8739' -> (Import Result ID: 'cee31382eccc6a9ff7af157d7bc80cd9') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=531af596ffea1504dc8a435ea3745ebb DependenciesID=3da0cda29481691b3dc6dc8128ef30cf StaticDependenciesID=d930dafe6bfdeed6dbb4c8a0d742c3ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (2.6 MB). Loaded Objects now: 8006.
+Memory consumption went from 335.6 MB to 333.0 MB.
+Total: 15.252700 ms (FindLiveObjects: 0.822400 ms CreateObjectMapping: 2.009600 ms MarkObjects: 11.797800 ms  DeleteObjects: 0.621300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7013 unused Assets / (6.3 MB). Loaded Objects now: 8008.
+Memory consumption went from 343.9 MB to 337.6 MB.
+Total: 36.700000 ms (FindLiveObjects: 1.673700 ms CreateObjectMapping: 5.014900 ms MarkObjects: 23.547800 ms  DeleteObjects: 6.460400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T17:32:43.1811826Z
+  Time since last request: 2007.04190509999989 seconds.
+  importAddress: GUID: 0545d54603ae65c4a9f789e50e98bd6b - Path: Assets/Scripts/Economy/FloatingCosmicRune.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0545d54603ae65c4a9f789e50e98bd6b - Path: Assets/Scripts/Economy/FloatingCosmicRune.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0545d54603ae65c4a9f789e50e98bd6b' -> (Import Result ID: '0353a9feb0e262f00651f74a20fb3752') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=36a48db350bdc6559b2a0d7be2512ce1 DependenciesID=a3056d738b6248995d250c7205974285 StaticDependenciesID=78f580cd48f16175178bb1fdd0876f55 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.398 seconds
+Domain Reload Profiling: 5175ms
+	BeginReloadAssembly (764ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (1696ms)
+		LoadAssemblies (1151ms)
+		AnalyzeDomain (585ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (529ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2400ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (944ms)
+			ProcessInitializeOnLoadMethodAttributes (340ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7024 unused Assets / (5.5 MB). Loaded Objects now: 8053.
+Memory consumption went from 355.3 MB to 349.7 MB.
+Total: 22.470400 ms (FindLiveObjects: 1.286500 ms CreateObjectMapping: 4.020400 ms MarkObjects: 11.496200 ms  DeleteObjects: 5.665700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8053.
+Memory consumption went from 353.3 MB to 350.7 MB.
+Total: 21.924400 ms (FindLiveObjects: 0.601200 ms CreateObjectMapping: 1.362300 ms MarkObjects: 17.572000 ms  DeleteObjects: 2.387200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7016 unused Assets / (6.0 MB). Loaded Objects now: 8056.
+Memory consumption went from 361.6 MB to 355.6 MB.
+Total: 51.091700 ms (FindLiveObjects: 1.886800 ms CreateObjectMapping: 7.878700 ms MarkObjects: 33.398300 ms  DeleteObjects: 7.924300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8056.
+Memory consumption went from 359.5 MB to 356.9 MB.
+Total: 16.563800 ms (FindLiveObjects: 0.623900 ms CreateObjectMapping: 2.288300 ms MarkObjects: 12.182700 ms  DeleteObjects: 1.466100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.21 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7016 unused Assets / (7.0 MB). Loaded Objects now: 8056.
+Memory consumption went from 367.8 MB to 360.8 MB.
+Total: 49.949500 ms (FindLiveObjects: 3.665600 ms CreateObjectMapping: 7.876800 ms MarkObjects: 26.879300 ms  DeleteObjects: 11.525100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.827 seconds
+Domain Reload Profiling: 6011ms
+	BeginReloadAssembly (919ms)
+		DisableScriptedObjects (43ms)
+		CreateAndSetChildDomain (232ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (2009ms)
+		LoadAssemblies (1223ms)
+		AnalyzeDomain (706ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (633ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2832ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (496ms)
+			ProcessInitializeOnLoadAttributes (1219ms)
+			ProcessInitializeOnLoadMethodAttributes (376ms)
+			AfterProcessingInitializeOnLoad (20ms)
+		AwakeInstancesAfterBackupRestoration (77ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (7.0 MB). Loaded Objects now: 8060.
+Memory consumption went from 368.9 MB to 361.9 MB.
+Total: 32.024500 ms (FindLiveObjects: 1.419300 ms CreateObjectMapping: 5.185300 ms MarkObjects: 13.969400 ms  DeleteObjects: 11.448600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.9 MB). Loaded Objects now: 8061.
+Memory consumption went from 372.1 MB to 365.3 MB.
+Total: 36.671800 ms (FindLiveObjects: 1.669400 ms CreateObjectMapping: 6.655600 ms MarkObjects: 17.310700 ms  DeleteObjects: 11.033100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.170 seconds
+Domain Reload Profiling: 4455ms
+	BeginReloadAssembly (602ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (1489ms)
+		LoadAssemblies (696ms)
+		AnalyzeDomain (743ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (696ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2172ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (294ms)
+			ProcessInitializeOnLoadAttributes (990ms)
+			ProcessInitializeOnLoadMethodAttributes (249ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (54ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (7.8 MB). Loaded Objects now: 8065.
+Memory consumption went from 375.7 MB to 367.9 MB.
+Total: 21.962800 ms (FindLiveObjects: 1.322500 ms CreateObjectMapping: 3.910000 ms MarkObjects: 8.284300 ms  DeleteObjects: 8.444300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8065.
+Memory consumption went from 373.7 MB to 371.1 MB.
+Total: 14.018300 ms (FindLiveObjects: 0.966400 ms CreateObjectMapping: 2.802300 ms MarkObjects: 9.263700 ms  DeleteObjects: 0.984100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8065.
+Memory consumption went from 376.8 MB to 374.2 MB.
+Total: 31.893900 ms (FindLiveObjects: 0.929500 ms CreateObjectMapping: 3.700300 ms MarkObjects: 25.785900 ms  DeleteObjects: 1.475800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (5.3 MB). Loaded Objects now: 8065.
+Memory consumption went from 385.1 MB to 379.8 MB.
+Total: 80.845000 ms (FindLiveObjects: 1.761200 ms CreateObjectMapping: 5.419100 ms MarkObjects: 65.017000 ms  DeleteObjects: 8.645600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.1 MB). Loaded Objects now: 8065.
+Memory consumption went from 388.3 MB to 382.2 MB.
+Total: 41.902400 ms (FindLiveObjects: 3.340700 ms CreateObjectMapping: 7.087700 ms MarkObjects: 24.877200 ms  DeleteObjects: 6.592900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.1 MB). Loaded Objects now: 8065.
+Memory consumption went from 391.4 MB to 385.3 MB.
+Total: 23.862000 ms (FindLiveObjects: 1.212200 ms CreateObjectMapping: 4.713900 ms MarkObjects: 11.561000 ms  DeleteObjects: 6.373200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.555 seconds
+Domain Reload Profiling: 3870ms
+	BeginReloadAssembly (487ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (114ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (1666ms)
+		LoadAssemblies (1214ms)
+		AnalyzeDomain (420ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (382ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1556ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (211ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (6.5 MB). Loaded Objects now: 8069.
+Memory consumption went from 396.3 MB to 389.8 MB.
+Total: 19.386600 ms (FindLiveObjects: 1.405400 ms CreateObjectMapping: 3.531100 ms MarkObjects: 9.024300 ms  DeleteObjects: 5.423900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8069.
+Memory consumption went from 394.4 MB to 391.8 MB.
+Total: 12.241500 ms (FindLiveObjects: 0.744000 ms CreateObjectMapping: 1.429500 ms MarkObjects: 9.457000 ms  DeleteObjects: 0.609800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (7.7 MB). Loaded Objects now: 8069.
+Memory consumption went from 402.7 MB to 395.0 MB.
+Total: 46.861600 ms (FindLiveObjects: 1.565600 ms CreateObjectMapping: 4.306200 ms MarkObjects: 24.871400 ms  DeleteObjects: 16.115400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.202 seconds
+Domain Reload Profiling: 6510ms
+	BeginReloadAssembly (575ms)
+		DisableScriptedObjects (42ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (1542ms)
+		LoadAssemblies (1030ms)
+		AnalyzeDomain (499ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (454ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (4205ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (463ms)
+			ProcessInitializeOnLoadAttributes (2173ms)
+			ProcessInitializeOnLoadMethodAttributes (587ms)
+			AfterProcessingInitializeOnLoad (27ms)
+		AwakeInstancesAfterBackupRestoration (102ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (6.0 MB). Loaded Objects now: 8073.
+Memory consumption went from 407.6 MB to 401.6 MB.
+Total: 29.128500 ms (FindLiveObjects: 2.275500 ms CreateObjectMapping: 5.859000 ms MarkObjects: 14.386200 ms  DeleteObjects: 6.605800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8073.
+Memory consumption went from 405.7 MB to 403.0 MB.
+Total: 26.701300 ms (FindLiveObjects: 1.135300 ms CreateObjectMapping: 2.710100 ms MarkObjects: 21.769200 ms  DeleteObjects: 1.082400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8073.
+Memory consumption went from 408.8 MB to 406.1 MB.
+Total: 13.243100 ms (FindLiveObjects: 1.168500 ms CreateObjectMapping: 2.339800 ms MarkObjects: 8.833300 ms  DeleteObjects: 0.899600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.49 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8073.
+Memory consumption went from 411.9 MB to 409.2 MB.
+Total: 20.657900 ms (FindLiveObjects: 0.750000 ms CreateObjectMapping: 1.890800 ms MarkObjects: 17.411400 ms  DeleteObjects: 0.603400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (5.4 MB). Loaded Objects now: 8073.
+Memory consumption went from 420.1 MB to 414.7 MB.
+Total: 30.677000 ms (FindLiveObjects: 1.176800 ms CreateObjectMapping: 5.403100 ms MarkObjects: 11.669800 ms  DeleteObjects: 12.425400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.799 seconds
+Domain Reload Profiling: 3935ms
+	BeginReloadAssembly (522ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (128ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (1438ms)
+		LoadAssemblies (952ms)
+		AnalyzeDomain (463ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (418ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1800ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (784ms)
+			ProcessInitializeOnLoadMethodAttributes (218ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (6.1 MB). Loaded Objects now: 8077.
+Memory consumption went from 424.0 MB to 417.9 MB.
+Total: 16.704300 ms (FindLiveObjects: 1.004200 ms CreateObjectMapping: 3.199600 ms MarkObjects: 8.074600 ms  DeleteObjects: 4.424500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8077.
+Memory consumption went from 422.1 MB to 419.5 MB.
+Total: 34.637400 ms (FindLiveObjects: 2.142900 ms CreateObjectMapping: 2.401900 ms MarkObjects: 29.062600 ms  DeleteObjects: 1.021200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8077.
+Memory consumption went from 425.2 MB to 422.6 MB.
+Total: 11.438300 ms (FindLiveObjects: 0.565900 ms CreateObjectMapping: 1.318900 ms MarkObjects: 8.657300 ms  DeleteObjects: 0.894200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.81 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8077.
+Memory consumption went from 428.3 MB to 425.7 MB.
+Total: 20.735000 ms (FindLiveObjects: 2.394800 ms CreateObjectMapping: 2.111600 ms MarkObjects: 15.186600 ms  DeleteObjects: 1.038700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

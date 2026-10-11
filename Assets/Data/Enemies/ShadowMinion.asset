@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029db4bdcdca8f04a8487c982b7a0ff1, type: 3}
+  m_Name: ShadowMinion
+  m_EditorClassIdentifier: Assembly-CSharp::CrystalForge.Data.EnemyDataSO
+  enemyId: shadow_minion
+  enemyName: Shadow Minion
+  loreDescription: "B\xF3ng ma m\u1ECF qu\u1EB7ng tho\u1EAFt \u1EA9n tho\u1EAFt hi\u1EC7n
+    v\u1EDBi t\u1ED1c \u0111\u1ED9 \u0111\xE1nh nhanh."
+  enemyAvatar: {fileID: 0}
+  maxHp: 1700
+  attackPower: 110
+  defense: 15
+  critRatePercent: 5
+  isBoss: 0
+  crystalReward: 1000
+  productionBuffMultiplier: 1.5
+  buffDurationSeconds: 35

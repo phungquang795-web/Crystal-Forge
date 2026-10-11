@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfcf3eb98486bd43adc43b7d65851ea, type: 3}
+  m_Name: Lightning
+  m_EditorClassIdentifier: Assembly-CSharp::CrystalForge.Data.SkillDataSO
+  skillId: lightning
+  skillName: "[SET] Lightning Strike"
+  skillType: 0
+  description: "Trieu hoi tia set trung phat, co 30% ti le kich hoat them +45 sat
+    thuong moi don danh."
+  skillIcon: {fileID: 0}
+  flatBonusDamage: 45
+  triggerIntervalTurns: 0
+  procChancePercent: 30
+  lifestealPercent: 0
+  damageReductionPercent: 0
+  critRateBonusPercent: 0

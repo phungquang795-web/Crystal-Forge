@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39ebc1244e4b5141a5e8d5ad342ef46, type: 3}
+  m_Name: MysticMerchantEvent
+  m_EditorClassIdentifier: Assembly-CSharp::CrystalForge.Data.EventDataSO
+  eventId: mystic_merchant
+  eventTitle: "Thuong Nhan Di Gioi"
+  storyPrompt: "Mot thuong nhan deo mat na thach anh xuat hien tu bong toi va dua
+    ra loi moi giao dich..."
+  eventIllustration: {fileID: 0}
+  choices:
+  - choiceButtonText: "Tang 50 Crystal hoc Ky Nang"
+    outcomeDescription: "Thuong nhan gat dau hai long va truyen day bi kip co xua!"
+    crystalChange: -50
+    heroHpPercentChange: 0
+    temporaryProductionBuff: 0
+    buffDurationSeconds: 0
+    grantsRandomSkill: 1
+    triggersCombatEncounter: 0
+    overrideEnemy: {fileID: 0}
+  - choiceButtonText: "Tu choi va roi di an toan"
+    outcomeDescription: "Ban cui chao va tiep tuc chuyen hanh trinh."
+    crystalChange: 0
+    heroHpPercentChange: 0
+    temporaryProductionBuff: 0
+    buffDurationSeconds: 0
+    grantsRandomSkill: 0
+    triggersCombatEncounter: 0
+    overrideEnemy: {fileID: 0}

@@ -1,0 +1,754 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16200 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-10-10T16:59:14.6657656Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-10T16:59:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW1
+-projectPath
+D:/Ga21301/GAme
+-logFile
+Logs/AssetImportWorkerHW1.log
+-srvPort
+60824
+-parentPid
+12272
+-analyticsCloudUserId
+18968363565321
+-analyticsCloudProjectId
+11ed0b4a-c1db-42b7-ab37-ff1d12213a72
+-analyticsLocalProjectId
+61412103e7e151a4ab8d0b99a1394427
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+b3485123a5707ceb7bdcbdd9675596c85d27c3b2
+-cbmMachineId
+c8lURMU4rJV6EUzGSNClrAFvI4E=
+-licensingIpc
+LicenseClient-Administrator
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/Ga21301/GAme
+D:/Ga21301/GAme
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [14844]  Target information:
+
+Player connection [14844]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1600487290 [EditorId] 1600487290 [Version] 1048832 [Id] WindowsEditor(7,WIN-JN9CKIESMG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14844] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 12.29 ms, found 4 plugins.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Ga21301/GAme/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 11.0]
+    Renderer:        NVIDIA Quadro M1000M (ID=0x13b1)
+    Vendor:          NVIDIA
+    VRAM:            2001 MB
+    App VRAM Budget: 1701 MB
+    Driver:          32.0.15.8278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002992 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
+[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.5.9" at "2026-10-10T16:59:17.885249Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10788, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              892efad0e10b49f383d627770515fec6
+  Correlation Id:          9f66c684e6ec1f0e35ec9ccc34a0d579
+  External correlation Id: 3799056607925541673
+  Machine Id:              c8lURMU4rJV6EUzGSNClrAFvI4E=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.5.9" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.5.9-notifications" at "2026-10-10T16:59:17.8971227Z"
+[Licensing::Module] Licensing Background thread has ended after 3.23s
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 2004ms
+	BeginReloadAssembly (301ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (581ms)
+		LoadAssemblies (296ms)
+		AnalyzeDomain (448ms)
+			TypeCache.Refresh (445ms)
+				TypeCache.ScanAssembly (418ms)
+	FinalizeReload (921ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (417ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968363565321-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.088 seconds
+Domain Reload Profiling: 3612ms
+	BeginReloadAssembly (328ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (1055ms)
+		LoadAssemblies (518ms)
+		AnalyzeDomain (494ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (327ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2090ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (1010ms)
+			ProcessInitializeOnLoadMethodAttributes (361ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 7024 unused Assets / (7.1 MB). Loaded Objects now: 8004.
+Memory consumption went from 340.6 MB to 333.4 MB.
+Total: 37.737700 ms (FindLiveObjects: 1.763100 ms CreateObjectMapping: 6.626800 ms MarkObjects: 22.510800 ms  DeleteObjects: 6.833100 ms)
+
+Curl error 35: Recv failure: Connection was reset
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.51 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8004.
+Memory consumption went from 332.9 MB to 330.2 MB.
+Total: 15.715000 ms (FindLiveObjects: 1.285400 ms CreateObjectMapping: 1.800300 ms MarkObjects: 11.977000 ms  DeleteObjects: 0.648000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7013 unused Assets / (6.2 MB). Loaded Objects now: 8006.
+Memory consumption went from 341.2 MB to 335.0 MB.
+Total: 35.494200 ms (FindLiveObjects: 2.077000 ms CreateObjectMapping: 8.237500 ms MarkObjects: 19.120000 ms  DeleteObjects: 6.055400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-10T17:32:43.1812349Z
+  Time since last request: 46144.06955110000126 seconds.
+  importAddress: GUID: 8681d89f985f69341abbe1d3eb85d7b4 - Path: Assets/Scripts/Economy/SkyEventSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8681d89f985f69341abbe1d3eb85d7b4 - Path: Assets/Scripts/Economy/SkyEventSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8681d89f985f69341abbe1d3eb85d7b4' -> (Import Result ID: '801be1e36dcc2c96311ea21b1dae5c7c') in 0.235 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a17d9a7549284d854f5d419771fca625 DependenciesID=389e91b7999c98355c89fd92c673c40c StaticDependenciesID=962a86267eec8b5492639ba48b03ba2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.406 seconds
+Domain Reload Profiling: 5203ms
+	BeginReloadAssembly (754ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (183ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (122ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (1724ms)
+		LoadAssemblies (1162ms)
+		AnalyzeDomain (593ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (7ms)
+			BuildScriptInfoCaches (533ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2408ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (944ms)
+			ProcessInitializeOnLoadMethodAttributes (340ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7024 unused Assets / (6.3 MB). Loaded Objects now: 8053.
+Memory consumption went from 355.1 MB to 348.8 MB.
+Total: 25.280200 ms (FindLiveObjects: 1.747800 ms CreateObjectMapping: 7.907500 ms MarkObjects: 8.072500 ms  DeleteObjects: 7.550300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8053.
+Memory consumption went from 353.2 MB to 350.5 MB.
+Total: 17.798400 ms (FindLiveObjects: 0.829200 ms CreateObjectMapping: 1.753800 ms MarkObjects: 14.470000 ms  DeleteObjects: 0.743700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7016 unused Assets / (5.9 MB). Loaded Objects now: 8056.
+Memory consumption went from 361.4 MB to 355.6 MB.
+Total: 50.134600 ms (FindLiveObjects: 2.025000 ms CreateObjectMapping: 4.358400 ms MarkObjects: 37.198800 ms  DeleteObjects: 6.547600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8056.
+Memory consumption went from 359.4 MB to 356.7 MB.
+Total: 19.889900 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 1.889800 ms MarkObjects: 16.257100 ms  DeleteObjects: 1.019400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7016 unused Assets / (6.1 MB). Loaded Objects now: 8056.
+Memory consumption went from 367.6 MB to 361.5 MB.
+Total: 123.406100 ms (FindLiveObjects: 1.430000 ms CreateObjectMapping: 37.363700 ms MarkObjects: 76.129300 ms  DeleteObjects: 8.480600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.847 seconds
+Domain Reload Profiling: 6009ms
+	BeginReloadAssembly (915ms)
+		DisableScriptedObjects (44ms)
+		CreateAndSetChildDomain (231ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (1999ms)
+		LoadAssemblies (1230ms)
+		AnalyzeDomain (706ms)
+			TypeCache.Refresh (42ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (630ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2849ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (447ms)
+			ProcessInitializeOnLoadAttributes (1283ms)
+			ProcessInitializeOnLoadMethodAttributes (354ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (91ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (7.0 MB). Loaded Objects now: 8060.
+Memory consumption went from 368.8 MB to 361.8 MB.
+Total: 34.914400 ms (FindLiveObjects: 1.760100 ms CreateObjectMapping: 6.888600 ms MarkObjects: 18.177400 ms  DeleteObjects: 8.086000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.0 MB). Loaded Objects now: 8061.
+Memory consumption went from 372.0 MB to 366.0 MB.
+Total: 34.497500 ms (FindLiveObjects: 1.784100 ms CreateObjectMapping: 8.084100 ms MarkObjects: 15.041100 ms  DeleteObjects: 9.585400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.141 seconds
+Domain Reload Profiling: 4394ms
+	BeginReloadAssembly (598ms)
+		DisableScriptedObjects (26ms)
+		CreateAndSetChildDomain (128ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (1463ms)
+		LoadAssemblies (700ms)
+		AnalyzeDomain (708ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (667ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2143ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (285ms)
+			ProcessInitializeOnLoadAttributes (982ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (6.1 MB). Loaded Objects now: 8065.
+Memory consumption went from 375.9 MB to 369.7 MB.
+Total: 18.835500 ms (FindLiveObjects: 1.099500 ms CreateObjectMapping: 3.863800 ms MarkObjects: 8.741600 ms  DeleteObjects: 5.129200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8065.
+Memory consumption went from 373.9 MB to 371.3 MB.
+Total: 14.876400 ms (FindLiveObjects: 0.873300 ms CreateObjectMapping: 1.882500 ms MarkObjects: 11.142400 ms  DeleteObjects: 0.976600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8065.
+Memory consumption went from 377.0 MB to 374.4 MB.
+Total: 37.410800 ms (FindLiveObjects: 0.913100 ms CreateObjectMapping: 2.499600 ms MarkObjects: 32.098500 ms  DeleteObjects: 1.897300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (4.8 MB). Loaded Objects now: 8065.
+Memory consumption went from 385.3 MB to 380.6 MB.
+Total: 82.831200 ms (FindLiveObjects: 1.510200 ms CreateObjectMapping: 50.788700 ms MarkObjects: 22.616600 ms  DeleteObjects: 7.913300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.0 MB). Loaded Objects now: 8065.
+Memory consumption went from 388.4 MB to 382.4 MB.
+Total: 49.472800 ms (FindLiveObjects: 4.594900 ms CreateObjectMapping: 10.362200 ms MarkObjects: 26.742700 ms  DeleteObjects: 7.768800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.1 MB). Loaded Objects now: 8065.
+Memory consumption went from 391.4 MB to 385.4 MB.
+Total: 23.342600 ms (FindLiveObjects: 1.255000 ms CreateObjectMapping: 3.990700 ms MarkObjects: 12.593500 ms  DeleteObjects: 5.501800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.493 seconds
+Domain Reload Profiling: 5075ms
+	BeginReloadAssembly (804ms)
+		DisableScriptedObjects (60ms)
+		CreateAndSetChildDomain (114ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (2625ms)
+		LoadAssemblies (2452ms)
+		AnalyzeDomain (406ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (372ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1495ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (588ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (5.5 MB). Loaded Objects now: 8069.
+Memory consumption went from 396.1 MB to 390.7 MB.
+Total: 14.533400 ms (FindLiveObjects: 1.080500 ms CreateObjectMapping: 3.115800 ms MarkObjects: 6.728400 ms  DeleteObjects: 3.607900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8069.
+Memory consumption went from 394.2 MB to 391.6 MB.
+Total: 12.367700 ms (FindLiveObjects: 0.749100 ms CreateObjectMapping: 2.650400 ms MarkObjects: 8.337300 ms  DeleteObjects: 0.629400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (7.4 MB). Loaded Objects now: 8069.
+Memory consumption went from 402.4 MB to 395.1 MB.
+Total: 44.634300 ms (FindLiveObjects: 1.489900 ms CreateObjectMapping: 4.167800 ms MarkObjects: 22.397900 ms  DeleteObjects: 16.576300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.239 seconds
+Domain Reload Profiling: 6604ms
+	BeginReloadAssembly (568ms)
+		DisableScriptedObjects (22ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (1616ms)
+		LoadAssemblies (1109ms)
+		AnalyzeDomain (487ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (446ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (4243ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (474ms)
+			ProcessInitializeOnLoadAttributes (2181ms)
+			ProcessInitializeOnLoadMethodAttributes (577ms)
+			AfterProcessingInitializeOnLoad (31ms)
+		AwakeInstancesAfterBackupRestoration (76ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (6.1 MB). Loaded Objects now: 8073.
+Memory consumption went from 407.1 MB to 400.9 MB.
+Total: 29.910200 ms (FindLiveObjects: 2.480400 ms CreateObjectMapping: 5.501100 ms MarkObjects: 13.485600 ms  DeleteObjects: 8.440800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8073.
+Memory consumption went from 405.1 MB to 402.5 MB.
+Total: 26.367500 ms (FindLiveObjects: 1.108500 ms CreateObjectMapping: 2.634700 ms MarkObjects: 21.647100 ms  DeleteObjects: 0.973700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8073.
+Memory consumption went from 408.2 MB to 405.6 MB.
+Total: 16.445100 ms (FindLiveObjects: 1.281900 ms CreateObjectMapping: 3.033400 ms MarkObjects: 10.276200 ms  DeleteObjects: 1.851600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8073.
+Memory consumption went from 411.3 MB to 408.6 MB.
+Total: 10.952400 ms (FindLiveObjects: 0.694600 ms CreateObjectMapping: 1.323300 ms MarkObjects: 8.152200 ms  DeleteObjects: 0.778000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (6.2 MB). Loaded Objects now: 8073.
+Memory consumption went from 419.5 MB to 413.3 MB.
+Total: 37.891000 ms (FindLiveObjects: 1.190400 ms CreateObjectMapping: 7.054000 ms MarkObjects: 20.140500 ms  DeleteObjects: 9.504200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.783 seconds
+Domain Reload Profiling: 3892ms
+	BeginReloadAssembly (507ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (1435ms)
+		LoadAssemblies (929ms)
+		AnalyzeDomain (465ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (418ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1785ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (261ms)
+			ProcessInitializeOnLoadAttributes (759ms)
+			ProcessInitializeOnLoadMethodAttributes (237ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (6.1 MB). Loaded Objects now: 8077.
+Memory consumption went from 424.0 MB to 417.9 MB.
+Total: 17.489300 ms (FindLiveObjects: 1.016100 ms CreateObjectMapping: 3.257200 ms MarkObjects: 8.178600 ms  DeleteObjects: 5.036100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.05 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8077.
+Memory consumption went from 422.1 MB to 419.4 MB.
+Total: 38.648500 ms (FindLiveObjects: 1.583600 ms CreateObjectMapping: 2.289100 ms MarkObjects: 32.956800 ms  DeleteObjects: 1.811700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8077.
+Memory consumption went from 425.1 MB to 422.5 MB.
+Total: 11.726700 ms (FindLiveObjects: 0.638900 ms CreateObjectMapping: 1.456100 ms MarkObjects: 9.057700 ms  DeleteObjects: 0.572300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8077.
+Memory consumption went from 428.2 MB to 425.6 MB.
+Total: 21.829200 ms (FindLiveObjects: 0.895100 ms CreateObjectMapping: 2.426100 ms MarkObjects: 17.417000 ms  DeleteObjects: 1.088000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
